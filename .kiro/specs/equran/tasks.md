@@ -25,15 +25,15 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 3.2 Buat utils/quran.ts: resolver semua 7 mode range ke { start_verse_id, end_verse_id }
   - [x] 3.3 Buat utils/heatmap.ts: scoring logic (weighted untuk Tilawah), normalisasi intensitas warna
 
-- [ ] 4. Pinia Stores
-  - [ ] 4.1 Buat stores/settings.ts: load/save app_settings dari Supabase (lokasi, hijri_offset, dll)
-  - [ ] 4.2 Buat stores/books.ts: CRUD kitab/mushaf
-  - [ ] 4.3 Buat stores/sessions.ts: create session + entries, fetch history, delete session
-  - [ ] 4.4 Buat stores/quran.ts: fetch & cache quran_verses, surah_weights, hijri_daily_targets
+- [x] 4. Pinia Stores
+  - [x] 4.1 Buat stores/settings.ts: load/save app_settings dari Supabase (lokasi, hijri_offset, dll)
+  - [x] 4.2 Buat stores/books.ts: CRUD kitab/mushaf
+  - [x] 4.3 Buat stores/sessions.ts: create session + entries, fetch history, delete session
+  - [x] 4.4 Buat stores/quran.ts: fetch & cache quran_verses, surah_weights, hijri_daily_targets
 
-- [ ] 5. Composables
-  - [ ] 5.1 Buat composables/useHijriDate.ts: reactive current Hijri date dengan batas Maghrib
-  - [ ] 5.2 Buat composables/useQuranRange.ts: helper untuk setiap mode range selection
+- [x] 5. Composables
+  - [x] 5.1 Buat composables/useHijriDate.ts: reactive current Hijri date dengan batas Maghrib
+  - [x] 5.2 Buat composables/useQuranRange.ts: helper untuk setiap mode range selection
 
 - [x] 6. Data Seeding (SQL Migration Files)
   - [x] 6.1 Generate `supabase/migrations/002_seed_quran_verses.sql` — 6.236 ayat dengan `ruku_in_surah` dan `hizb_in_juz` yang dihitung otomatis dari `scripts/data/quran-verses.csv`
@@ -42,9 +42,9 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 6.4 Generate `supabase/migrations/005_seed_default_book.sql` — 2 kitab: "Quran Madinah Hijau" dan "Quran Madinah Biru"
   - [x] 6.5 Buat `scripts/README.md` — instruksi cara menjalankan generator (`node scripts/generate-migrations.cjs`) dan cara setup database (`supabase db push`)
 
-- [ ] 7. Layout & Navigation
-  - [ ] 7.1 Buat layouts/default.vue dengan bottom navigation bar (5 tab: Dashboard/Input/History/Heatmap/Settings)
-  - [ ] 7.2 Bottom nav: ikon + label, active state, mobile-first styling
+- [x] 7. Layout & Navigation
+  - [x] 7.1 Buat layouts/default.vue dengan bottom navigation bar (5 tab: Dashboard/Input/History/Heatmap/Settings)
+  - [x] 7.2 Bottom nav: ikon + label, active state, mobile-first styling
 
 - [ ] 8. Halaman Dashboard (`/`)
   - [ ] 8.1 Tampilkan tanggal Hijriah hari ini (nama hari + tanggal + bulan + tahun)
