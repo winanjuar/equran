@@ -31,9 +31,9 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 4.3 Buat stores/sessions.ts: create session + entries, fetch history, delete session
   - [x] 4.4 Buat stores/quran.ts: fetch & cache quran_verses, surah_weights, hijri_daily_targets
 
-- [ ] 5. Composables
-  - [ ] 5.1 Buat composables/useHijriDate.ts: reactive current Hijri date dengan batas Maghrib
-  - [ ] 5.2 Buat composables/useQuranRange.ts: helper untuk setiap mode range selection
+- [x] 5. Composables
+  - [x] 5.1 Buat composables/useHijriDate.ts: reactive current Hijri date dengan batas Maghrib
+  - [x] 5.2 Buat composables/useQuranRange.ts: helper untuk setiap mode range selection
 
 - [x] 6. Data Seeding (SQL Migration Files)
   - [x] 6.1 Generate `supabase/migrations/002_seed_quran_verses.sql` — 6.236 ayat dengan `ruku_in_surah` dan `hizb_in_juz` yang dihitung otomatis dari `scripts/data/quran-verses.csv`
