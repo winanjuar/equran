@@ -23,6 +23,7 @@ export default defineNuxtConfig({
   },
 
   pwa: {
+    registerType: 'autoUpdate',
     manifest: {
       name: 'e-Quran',
       short_name: 'e-Quran',
@@ -30,11 +31,33 @@ export default defineNuxtConfig({
       theme_color: '#16a34a', // green-600
       background_color: '#ffffff',
       display: 'standalone',
-      orientation: 'portrait'
+      orientation: 'portrait',
+      start_url: '/',
+      icons: [
+        {
+          src: '/pwa-192x192.png',
+          sizes: '192x192',
+          type: 'image/png'
+        },
+        {
+          src: '/pwa-512x512.png',
+          sizes: '512x512',
+          type: 'image/png'
+        },
+        {
+          src: '/icon.svg',
+          sizes: 'any',
+          type: 'image/svg+xml',
+          purpose: 'any maskable'
+        }
+      ]
     },
     workbox: {
       navigateFallback: '/',
       globPatterns: ['**/*.{js,css,html,png,svg,ico}']
+    },
+    devOptions: {
+      enabled: false // avoid SW conflicts in dev
     }
   }
 })
