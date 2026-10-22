@@ -196,6 +196,61 @@
         "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
         "timestamp": 1792652554360
       }
+    ],
+    "4.1 Buat stores/settings.ts: load/save app_settings dari Supabase (lokasi, hijri_offset, dll)": [
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792676304909
+      },
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792676707241
+      }
+    ],
+    "4.2 Buat stores/books.ts: CRUD kitab/mushaf": [
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792676710538
+      },
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792677182857
+      }
+    ],
+    "4.3 Buat stores/sessions.ts: create session + entries, fetch history, delete session": [
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792677186068
+      },
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792677842893
+      }
+    ],
+    "4.4 Buat stores/quran.ts: fetch & cache quran_verses, surah_weights, hijri_daily_targets": [
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792677847220
+      },
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792678154969
+      }
+    ],
+    "4. Pinia Stores": [
+      {
+        "executionId": "03769db8-a045-4694-becd-2a90ace2cce0",
+        "chatSessionId": "sess_560bf162-fbb7-4a79-88b3-00076c0ec03c",
+        "timestamp": 1792678155057
+      }
     ]
   }
 }

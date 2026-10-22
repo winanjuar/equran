@@ -25,11 +25,11 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 3.2 Buat utils/quran.ts: resolver semua 7 mode range ke { start_verse_id, end_verse_id }
   - [x] 3.3 Buat utils/heatmap.ts: scoring logic (weighted untuk Tilawah), normalisasi intensitas warna
 
-- [ ] 4. Pinia Stores
-  - [ ] 4.1 Buat stores/settings.ts: load/save app_settings dari Supabase (lokasi, hijri_offset, dll)
-  - [ ] 4.2 Buat stores/books.ts: CRUD kitab/mushaf
-  - [ ] 4.3 Buat stores/sessions.ts: create session + entries, fetch history, delete session
-  - [ ] 4.4 Buat stores/quran.ts: fetch & cache quran_verses, surah_weights, hijri_daily_targets
+- [x] 4. Pinia Stores
+  - [x] 4.1 Buat stores/settings.ts: load/save app_settings dari Supabase (lokasi, hijri_offset, dll)
+  - [x] 4.2 Buat stores/books.ts: CRUD kitab/mushaf
+  - [x] 4.3 Buat stores/sessions.ts: create session + entries, fetch history, delete session
+  - [x] 4.4 Buat stores/quran.ts: fetch & cache quran_verses, surah_weights, hijri_daily_targets
 
 - [ ] 5. Composables
   - [ ] 5.1 Buat composables/useHijriDate.ts: reactive current Hijri date dengan batas Maghrib
