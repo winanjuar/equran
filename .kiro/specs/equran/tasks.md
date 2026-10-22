@@ -42,9 +42,9 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 6.4 Generate `supabase/migrations/005_seed_default_book.sql` — 2 kitab: "Quran Madinah Hijau" dan "Quran Madinah Biru"
   - [x] 6.5 Buat `scripts/README.md` — instruksi cara menjalankan generator (`node scripts/generate-migrations.cjs`) dan cara setup database (`supabase db push`)
 
-- [ ] 7. Layout & Navigation
-  - [ ] 7.1 Buat layouts/default.vue dengan bottom navigation bar (5 tab: Dashboard/Input/History/Heatmap/Settings)
-  - [ ] 7.2 Bottom nav: ikon + label, active state, mobile-first styling
+- [x] 7. Layout & Navigation
+  - [x] 7.1 Buat layouts/default.vue dengan bottom navigation bar (5 tab: Dashboard/Input/History/Heatmap/Settings)
+  - [x] 7.2 Bottom nav: ikon + label, active state, mobile-first styling
 
 - [ ] 8. Halaman Dashboard (`/`)
   - [ ] 8.1 Tampilkan tanggal Hijriah hari ini (nama hari + tanggal + bulan + tahun)
