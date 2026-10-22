@@ -20,10 +20,10 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 2.3 Buat app types (input modes, heatmap config, dll) di types/app.ts
   - [x] 2.4 Buat composable useSupabase.ts untuk Supabase client
 
-- [ ] 3. Core Utilities
-  - [ ] 3.1 Buat utils/hijri.ts: kalkulasi Maghrib (adhan), konversi Hijriah (@umalqura/core), efective date logic, offset koreksi
-  - [ ] 3.2 Buat utils/quran.ts: resolver semua 7 mode range ke { start_verse_id, end_verse_id }
-  - [ ] 3.3 Buat utils/heatmap.ts: scoring logic (weighted untuk Tilawah), normalisasi intensitas warna
+- [x] 3. Core Utilities
+  - [x] 3.1 Buat utils/hijri.ts: kalkulasi Maghrib (adhan), konversi Hijriah (@umalqura/core), efective date logic, offset koreksi
+  - [x] 3.2 Buat utils/quran.ts: resolver semua 7 mode range ke { start_verse_id, end_verse_id }
+  - [x] 3.3 Buat utils/heatmap.ts: scoring logic (weighted untuk Tilawah), normalisasi intensitas warna
 
 - [ ] 4. Pinia Stores
   - [ ] 4.1 Buat stores/settings.ts: load/save app_settings dari Supabase (lokasi, hijri_offset, dll)
