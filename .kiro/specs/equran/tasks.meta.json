@@ -153,6 +153,49 @@
         "chatSessionId": "sess_c8f9e5fb-24d5-4629-a3a2-cadcc88b5e10",
         "timestamp": 1792602377850
       }
+    ],
+    "3.1 Buat utils/hijri.ts: kalkulasi Maghrib (adhan), konversi Hijriah (@umalqura/core), efective date logic, offset koreksi": [
+      {
+        "executionId": "40ab239d-8683-4698-bda7-1b2f01056dd4",
+        "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
+        "timestamp": 1792651515158
+      },
+      {
+        "executionId": "40ab239d-8683-4698-bda7-1b2f01056dd4",
+        "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
+        "timestamp": 1792652543641
+      }
+    ],
+    "3.2 Buat utils/quran.ts: resolver semua 7 mode range ke { start_verse_id, end_verse_id }": [
+      {
+        "executionId": "40ab239d-8683-4698-bda7-1b2f01056dd4",
+        "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
+        "timestamp": 1792651522743
+      },
+      {
+        "executionId": "40ab239d-8683-4698-bda7-1b2f01056dd4",
+        "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
+        "timestamp": 1792652548882
+      }
+    ],
+    "3.3 Buat utils/heatmap.ts: scoring logic (weighted untuk Tilawah), normalisasi intensitas warna": [
+      {
+        "executionId": "40ab239d-8683-4698-bda7-1b2f01056dd4",
+        "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
+        "timestamp": 1792651526335
+      },
+      {
+        "executionId": "40ab239d-8683-4698-bda7-1b2f01056dd4",
+        "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
+        "timestamp": 1792652554307
+      }
+    ],
+    "3. Core Utilities": [
+      {
+        "executionId": "40ab239d-8683-4698-bda7-1b2f01056dd4",
+        "chatSessionId": "sess_07d83d9e-4569-4e32-a69c-c9c066091cff",
+        "timestamp": 1792652554360
+      }
     ]
   }
 }
