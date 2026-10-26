@@ -802,6 +802,18 @@
         "chatSessionId": "sess_be776f76-9fd1-4ea0-a30d-e8db0d4898c3",
         "timestamp": 1793001738303
       }
+    ],
+    "10. Halaman History (`/history`)": [
+      {
+        "executionId": "d6bd50e5-1f70-4870-9f67-2b7932ac75de",
+        "chatSessionId": "sess_c1d4153c-c0d2-4646-b1c3-37f01974ee08",
+        "timestamp": 1793002566489
+      },
+      {
+        "executionId": "d6bd50e5-1f70-4870-9f67-2b7932ac75de",
+        "chatSessionId": "sess_c1d4153c-c0d2-4646-b1c3-37f01974ee08",
+        "timestamp": 1793002811877
+      }
     ]
   }
 }
