@@ -46,64 +46,64 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 7.1 Buat layouts/default.vue dengan bottom navigation bar (5 tab: Dashboard/Input/History/Heatmap/Settings)
   - [x] 7.2 Bottom nav: ikon + label, active state, mobile-first styling
 
-- [ ] 8. Halaman Dashboard (`/`)
-  - [ ] 8.1 Tampilkan tanggal Hijriah hari ini (nama hari + tanggal + bulan + tahun)
-  - [ ] 8.2 Kartu "Target Hari Ini" untuk Tilawah: range surat dari hijri_daily_targets
-  - [ ] 8.3 Tombol shortcut ke /input dengan proses pre-selected
-  - [ ] 8.4 4 mini heat map (per proses, 30 hari terakhir, segmentasi Surat)
-  - [ ] 8.5 Daftar 5 sesi terbaru
+- [x] 8. Halaman Dashboard (`/`)
+  - [x] 8.1 Tampilkan tanggal Hijriah hari ini (nama hari + tanggal + bulan + tahun)
+  - [x] 8.2 Kartu "Target Hari Ini" untuk Tilawah: range surat dari hijri_daily_targets
+  - [x] 8.3 Tombol shortcut ke /input dengan proses pre-selected
+  - [x] 8.4 4 mini heat map (per proses, 30 hari terakhir, segmentasi Surat)
+  - [x] 8.5 Daftar 5 sesi terbaru
 
-- [ ] 9. Halaman Input (`/input`)
-  - [ ] 9.1 Buat komponen step 1: pilih proses (4 tombol besar dengan ikon & warna berbeda)
-  - [ ] 9.2 Buat komponen step 2: pilih kitab/mushaf (dropdown + tombol tambah cepat)
-  - [ ] 9.3 Buat komponen step 3: pilih tanggal (default hari ini dalam format Hijriah)
-  - [ ] 9.4 Buat RangeSelector/BySurat.vue: dropdown surat + toggle full surat / range ayat
-  - [ ] 9.5 Buat RangeSelector/ByJuz.vue: dropdown juz 1-30
-  - [ ] 9.6 Buat RangeSelector/ByJuzHizb.vue: dropdown juz + radio Hizb 1/2
-  - [ ] 9.7 Buat RangeSelector/ByRuku.vue: dropdown surat + dropdown ruku ke-N (relatif dalam surat)
-  - [ ] 9.8 Buat RangeSelector/ByHalaman.vue: input nomor halaman (1-604)
-  - [ ] 9.9 Buat RangeSelector/ByAyat.vue: dropdown surat + input ayat awal & akhir
-  - [ ] 9.10 Buat RangeSelector/ByHariHijriah.vue: tampilkan target hari ini, hanya untuk Tilawah
-  - [ ] 9.11 Buat komponen range entry list: tampilkan semua range yang sudah ditambahkan + tombol hapus
-  - [ ] 9.12 Buat tombol "+ Tambah Range" untuk multiple entries dalam satu sesi
-  - [ ] 9.13 Input jumlah pengulangan (default 1, min 1)
-  - [ ] 9.14 Input catatan opsional
-  - [ ] 9.15 Tombol Simpan: validasi + save session + entries ke Supabase + redirect ke history
+- [x] 9. Halaman Input (`/input`)
+  - [x] 9.1 Buat komponen step 1: pilih proses (4 tombol besar dengan ikon & warna berbeda)
+  - [x] 9.2 Buat komponen step 2: pilih kitab/mushaf (dropdown + tombol tambah cepat)
+  - [x] 9.3 Buat komponen step 3: pilih tanggal (default hari ini dalam format Hijriah)
+  - [x] 9.4 Buat RangeSelector/BySurat.vue: dropdown surat + toggle full surat / range ayat
+  - [x] 9.5 Buat RangeSelector/ByJuz.vue: dropdown juz 1-30
+  - [x] 9.6 Buat RangeSelector/ByJuzHizb.vue: dropdown juz + radio Hizb 1/2
+  - [x] 9.7 Buat RangeSelector/ByRuku.vue: dropdown surat + dropdown ruku ke-N (relatif dalam surat)
+  - [x] 9.8 Buat RangeSelector/ByHalaman.vue: input nomor halaman (1-604)
+  - [x] 9.9 Buat RangeSelector/ByAyat.vue: dropdown surat + input ayat awal & akhir
+  - [x] 9.10 Buat RangeSelector/ByHariHijriah.vue: tampilkan target hari ini, hanya untuk Tilawah
+  - [x] 9.11 Buat komponen range entry list: tampilkan semua range yang sudah ditambahkan + tombol hapus
+  - [x] 9.12 Buat tombol "+ Tambah Range" untuk multiple entries dalam satu sesi
+  - [x] 9.13 Input jumlah pengulangan (default 1, min 1)
+  - [x] 9.14 Input catatan opsional
+  - [x] 9.15 Tombol Simpan: validasi + save session + entries ke Supabase + redirect ke history
 
-- [ ] 10. Halaman History (`/history`)
-  - [ ] 10.1 Fetch dan tampilkan list sesi dengan sesi terbaru di atas
-  - [ ] 10.2 Filter chip: Semua / Ziyadah / Murojahah / Tilawah / Tadabbur
-  - [ ] 10.3 Filter tanggal (date range picker)
-  - [ ] 10.4 Setiap item: ikon proses berwarna, tanggal Hijriah, nama kitab, summary range, jumlah repetisi
-  - [ ] 10.5 Swipe-to-delete atau tombol hapus per item dengan konfirmasi
+- [x] 10. Halaman History (`/history`)
+  - [~] 10.1 Fetch dan tampilkan list sesi dengan sesi terbaru di atas
+  - [~] 10.2 Filter chip: Semua / Ziyadah / Murojahah / Tilawah / Tadabbur
+  - [~] 10.3 Filter tanggal (date range picker)
+  - [~] 10.4 Setiap item: ikon proses berwarna, tanggal Hijriah, nama kitab, summary range, jumlah repetisi
+  - [~] 10.5 Swipe-to-delete atau tombol hapus per item dengan konfirmasi
 
 - [ ] 11. Halaman Heatmap (`/heatmap`)
-  - [ ] 11.1 Buat tab navigasi 4 proses dengan warna masing-masing
-  - [ ] 11.2 Dropdown pilih segmentasi (Ayat/Ruku'/Halaman/Hizb/Juz/Surat/Hari Hijriah)
-  - [ ] 11.3 Quick filter waktu: 7hr / 30hr / 3bln / 1thn + custom date range
-  - [ ] 11.4 Buat komponen HeatMapGrid.vue: grid kotak responsif dengan scrollable horizontal
-  - [ ] 11.5 Logika warna: 5 level intensitas per proses
-  - [ ] 11.6 Tooltip per kotak: nama segmen + skor/count
-  - [ ] 11.7 Legend intensitas di bawah grid
-  - [ ] 11.8 Buat komponen HeatMap.vue sebagai wrapper yang menggabungkan semua bagian
+  - [~] 11.1 Buat tab navigasi 4 proses dengan warna masing-masing
+  - [~] 11.2 Dropdown pilih segmentasi (Ayat/Ruku'/Halaman/Hizb/Juz/Surat/Hari Hijriah)
+  - [~] 11.3 Quick filter waktu: 7hr / 30hr / 3bln / 1thn + custom date range
+  - [~] 11.4 Buat komponen HeatMapGrid.vue: grid kotak responsif dengan scrollable horizontal
+  - [~] 11.5 Logika warna: 5 level intensitas per proses
+  - [~] 11.6 Tooltip per kotak: nama segmen + skor/count
+  - [~] 11.7 Legend intensitas di bawah grid
+  - [~] 11.8 Buat komponen HeatMap.vue sebagai wrapper yang menggabungkan semua bagian
 
 - [ ] 12. Halaman Settings (`/settings`)
-  - [ ] 12.1 Seksi Lokasi: toggle GPS/Manual, input kota & koordinat jika manual, tampilkan waktu Maghrib hari ini sebagai preview
-  - [ ] 12.2 Seksi Koreksi Hijriah: segmented control -1 / 0 / +1 dengan preview tanggal Hijriah sekarang
-  - [ ] 12.3 Seksi Kitab/Mushaf: list semua kitab + tombol tambah + edit + hapus
-  - [ ] 12.4 Seksi Bobot Surat: tabel 114 surat dengan input weight (default 1.0), highlight surat yang sudah diubah
+  - [~] 12.1 Seksi Lokasi: toggle GPS/Manual, input kota & koordinat jika manual, tampilkan waktu Maghrib hari ini sebagai preview
+  - [~] 12.2 Seksi Koreksi Hijriah: segmented control -1 / 0 / +1 dengan preview tanggal Hijriah sekarang
+  - [~] 12.3 Seksi Kitab/Mushaf: list semua kitab + tombol tambah + edit + hapus
+  - [~] 12.4 Seksi Bobot Surat: tabel 114 surat dengan input weight (default 1.0), highlight surat yang sudah diubah
 
 - [ ] 13. PWA & Polish
-  - [ ] 13.1 Konfigurasi PWA manifest di nuxt.config.ts (nama, ikon, theme color hijau)
-  - [ ] 13.2 Generate ikon PWA (192x192, 512x512)
-  - [ ] 13.3 Konfigurasi Service Worker untuk offline caching
-  - [ ] 13.4 Test build production: `npm run build` harus berhasil tanpa error
-  - [ ] 13.5 Buat vercel.json untuk konfigurasi deployment
+  - [~] 13.1 Konfigurasi PWA manifest di nuxt.config.ts (nama, ikon, theme color hijau)
+  - [~] 13.2 Generate ikon PWA (192x192, 512x512)
+  - [~] 13.3 Konfigurasi Service Worker untuk offline caching
+  - [~] 13.4 Test build production: `npm run build` harus berhasil tanpa error
+  - [~] 13.5 Buat vercel.json untuk konfigurasi deployment
 
 - [ ] 14. Verifikasi & Dokumentasi
-  - [ ] 14.1 Pastikan semua TypeScript types valid (tidak ada any yang tidak perlu)
-  - [ ] 14.2 Pastikan semua halaman responsif dan mobile-friendly
-  - [ ] 14.3 Update README.md dengan instruksi setup Supabase, import data, dan deployment ke Vercel
+  - [~] 14.1 Pastikan semua TypeScript types valid (tidak ada any yang tidak perlu)
+  - [~] 14.2 Pastikan semua halaman responsif dan mobile-friendly
+  - [~] 14.3 Update README.md dengan instruksi setup Supabase, import data, dan deployment ke Vercel
 
 ## Task Dependency Graph
 
