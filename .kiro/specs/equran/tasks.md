@@ -70,7 +70,7 @@ Implementasi e-Quran PWA dibangun secara bertahap mulai dari fondasi (scaffold, 
   - [x] 9.14 Input catatan opsional
   - [x] 9.15 Tombol Simpan: validasi + save session + entries ke Supabase + redirect ke history
 
-- [ ] 10. Halaman History (`/history`)
+- [x] 10. Halaman History (`/history`)
   - [~] 10.1 Fetch dan tampilkan list sesi dengan sesi terbaru di atas
   - [~] 10.2 Filter chip: Semua / Ziyadah / Murojahah / Tilawah / Tadabbur
   - [~] 10.3 Filter tanggal (date range picker)
